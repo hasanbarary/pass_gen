@@ -19,7 +19,6 @@ def request_username():
 password_list=[]
 count_pass='default'
 username=request_username()
-print(username)
 while True:
     try:
         count_pass=int(input("Enter your Password count >>> "))
