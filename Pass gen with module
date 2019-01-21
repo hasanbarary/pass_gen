@@ -1,4 +1,0 @@
-from random import choices 
-from string import punctuation,ascii_letters,digits
-
-print("".join(choices(digits+punctuation+ ascii_letters,k=12)))
